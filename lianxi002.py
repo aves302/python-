@@ -1,3 +1,6 @@
+"""
+将一个字符串中的每个单词反转
+"""
 def reverse_words(s):
     # 按照空格将字符串拆分成单词列表
     words = s.split()
