@@ -1,0 +1,14 @@
+def reverse_words(s):
+    # 将字符串按空格分割成单词
+    words = s.split()
+    
+    # 反转单词列表
+    reversed_words = words[::-1]
+    
+    # 将反转后的单词列表重新合并为一个字符串
+    return ' '.join(reversed_words)
+
+# 示例使用
+s = "The quick brown fox"
+result = reverse_words(s)
+print(result)
