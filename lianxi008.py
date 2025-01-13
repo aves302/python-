@@ -1,3 +1,6 @@
+"""
+查找列表中的最大和最小值
+"""
 def find_max_min(lst):
     return max(lst), min(lst)
 
