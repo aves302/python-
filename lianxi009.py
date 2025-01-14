@@ -1,3 +1,6 @@
+"""
+用户需要猜一个随机生成的数字，程序会提示太大还是太小。
+"""
 import random
 
 def guess_number_game():
